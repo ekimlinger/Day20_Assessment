@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS animal_table(
+  id SERIAL PRIMARY KEY,
+  species varchar(100) NOT NULL,
+  ammount INTEGER NOT NULL);
+
+
+
+--As Seen in: app.js 
